@@ -1,19 +1,69 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+
+#equilibrium{
+    width: 100%;
+    border-radius: 15px;
+}
+#avatar{
+    max-width: 50px;
+    min-width: 50px;
+}
+body > main > article > #p-avatar{
+    display: inline;
+    margin-inline-start: 10px;
+}
+strong{
+    font-weight: normal;
+}
+
+
 
 body{
-    background-color: hsl(216, 50%, 16%);
+    background-color: #0D1A2D;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
 }
+
+
+
 
 main{
-    background-color: hsl(215, 51%, 70%);
-    text-align: center;
-    width: 70%;
-    height: 70%;
+    background-color: #0C1729;
+    padding: 15px;
+    border-radius: 15px;
 
     margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+    
+    min-width: 220px;
+    max-width: 350px;
 }
+
+
+article{
+    background-color: #15273F;
+    padding: 20px;
+    border-radius: 15px;
+
+    margin: auto; 
+}
+
 
 
 footer{
-    background-color: rgb(202, 202, 202);
+    background-color: rgba(255, 255, 255, 0.527);
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+footer > p{
+    margin: 0px;
 }
